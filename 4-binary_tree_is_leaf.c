@@ -8,11 +8,11 @@
  * Return: if the node is a leaf - 1
  * otherwise - 0.
  */
-int binary_tree_is_leaf(const binary_treee_t *node)
+int binary_tree_is_leaf(const binary_tree_t *node)
 {
 	if (node == NULL || node->left != NULL || node->right != NULL)
 	{
 		return (0);
 	}
-	return (1)
+	return (1);
 }
