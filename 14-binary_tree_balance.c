@@ -9,7 +9,7 @@
  */
 int max(int left, int right)
 {
-	if (left < right )
+	if (left < right)
 		return (right);
 	return (left);
 }
@@ -44,4 +44,3 @@ int binary_tree_balance(const binary_tree_t *tree)
 		return (0);
 	return (binary_tree_height(tree->left) - binary_tree_height(tree->right));
 }
-
