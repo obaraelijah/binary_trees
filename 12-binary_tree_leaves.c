@@ -7,7 +7,7 @@
  *
  * Return: The addition of both sides of the tree
  */
-size_t binary_tree_leaves(const binary_tree_t *tree)i
+size_t binary_tree_leaves(const binary_tree_t *tree)
 {
 	size_t left, right;
 
